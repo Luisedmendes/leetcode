@@ -1,4 +1,4 @@
-export default function kidsWithCandies(candies: number[], extraCandies: number): boolean[] {
+export function kidsWithCandies(candies: number[], extraCandies: number): boolean[] {
   const greatestNumber: number = Math.max(...candies);
   const response: Array<boolean> = [];
 
